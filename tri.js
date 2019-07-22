@@ -1,7 +1,7 @@
 var i = 0;
 	var j = 0;
 	var s = 0;
-	var row = 3;
+	var row = 4;
 	for(i=1; i <= row; i++)		//首先列印上半部分
 	{
 		for(j=1; j <= row-i; j++)
@@ -9,7 +9,7 @@ var i = 0;
             console.log(" ");
             document.write(" ");
 		}
-		for(s=1; s <= (2*i-1); s++)
+		for(s=1; s <= (i-1); s++)
 		{
             console.log("*");
             document.write("*");
@@ -25,7 +25,7 @@ var i = 0;
             console.log(" ");
             document.write(" ");
 		}
-		for(s=(2*i-1); s > 0; s--)
+		for(s=(i-1); s > 0; s--)
 		{
             console.log("*");
             document.write("*");
